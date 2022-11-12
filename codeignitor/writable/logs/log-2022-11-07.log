@@ -1,0 +1,393 @@
+CRITICAL - 2022-11-07 08:59:13 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 08:59:13 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:05:55 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:05:55 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:772
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1019): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 772.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:06:30 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:06:30 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:772
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1019): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 772.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:07:10 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:07:10 --> Uncaught ArgumentCountError: array_shift() expects exactly 1 argument, 2 given in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(776): array_shift('serve', '-')
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:08:08 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:08:08 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:09:35 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:09:35 --> Uncaught Error: Class "CodeIgniter\CLI\CLI" not found in C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php:6
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#3 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#4 {main}
+  thrown
+in APPPATH\Views\errors\cli\error_exception.php on line 6.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:10:07 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:10:07 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:11:09 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:11:09 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:777
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(162): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1019): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 777.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:12:41 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:12:41 --> Uncaught ErrorException: Undefined variable $mb_strpos in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(776): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\91941\\...', 776)
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:13:51 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:14:06 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:14:36 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:14:36 --> Uncaught ArgumentCountError: array_shift() expects exactly 1 argument, 2 given in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:777
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(777): array_shift(Array, '-')
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1019): CodeIgniter\CLI\CLI::init()
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#9 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#10 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#11 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 777.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:15:50 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:15:50 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:777
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1019): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 777.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:16:50 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:16:50 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:777
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1019): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 777.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:17:08 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:17:08 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:777
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1019): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 777.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:20:15 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:20:15 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:778
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1020): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 778.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:23:06 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:23:06 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:24:03 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:24:03 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:25:05 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:25:05 --> syntax error, unexpected token "!"
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:25:33 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:25:33 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-07 09:25:50 --> The framework needs the following extension(s) installed and loaded: curl, intl, mbstring.
+in SYSTEMPATH\CodeIgniter.php on line 224.
+ 1 SYSTEMPATH\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, intl, mbstring')
+ 2 SYSTEMPATH\CodeIgniter.php(182): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 ROOTPATH\spark(83): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2022-11-07 09:25:50 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php:776
+Stack trace:
+#0 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\Users\91941\Desktop\htdocs\codeignitor\system\CLI\CLI.php(1018): CodeIgniter\CLI\CLI::init()
+#2 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(282): include_once('C:\\Users\\91941\\...')
+#3 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\91941\\...')
+#4 C:\Users\91941\Desktop\htdocs\codeignitor\system\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\Users\91941\Desktop\htdocs\codeignitor\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(284): include('C:\\Users\\91941\\...')
+#7 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(287): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\Users\91941\Desktop\htdocs\codeignitor\system\Debug\Exceptions.php(139): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+in SYSTEMPATH\CLI\CLI.php on line 776.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
